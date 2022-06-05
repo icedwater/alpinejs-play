@@ -44,6 +44,11 @@ of your choice, e.g. Python simpleserver, then click around.
 
 The basic stuff should now be available on `http://localhost:8000`.
 
+## Other pages
+
+ - [Basic Page with Toggles](basic.html)
+ - [Up-Down Counter](counter.html)
+
 [site]: https://alpinejs.dev
 [ajsh]: https://alpinejs.dev/start-here
 [ajcp]: https://alpinejs.dev/components
