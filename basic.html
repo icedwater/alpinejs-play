@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Testing basic alpinejs</title>
+    </head>
+    <body>
+        <script src="//unpkg.com/alpinejs" defer></script>
+
+        <p>The paragraph labelled "open" is hidden by default, and clicking the button toggles show/hide with a transition.</p>
+
+        <div x-data="{ open: false }">
+            <button x-on:click="open = ! open">Toggle</button>
+            <p x-show="open" x-transition>It's quite impressive, to be honest, but we haven't asked much of it yet.</p>
+        </div>
+    </body>
+</html>
