@@ -38,9 +38,9 @@ look good, so please support them.
 As promised, no install is needed, just load the pages into a webserver
 of your choice, e.g. Python simpleserver, then click around.
 
-    git clone git@github.com:icedwater/alpinejs
-    cd alpinejs
-    python -m http.server 8000
+    git clone git@github.com:icedwater/alpinejs-play
+    cd alpinejs-play
+    python -m http.server 8000 # or python -m SimpleHTTPServer 8000 for Python 2
 
 The basic stuff should now be available on `http://localhost:8000`.
 
