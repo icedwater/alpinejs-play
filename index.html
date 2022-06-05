@@ -13,15 +13,16 @@
 
         <p>Here's a minimal example that's on the top of the <a href="https://alpinejs.dev">site</a>:</p>
 
-        <pre><code>&lt;script src="//unpkg.com/alpinejs" defer&gt;&lt;/script&gt;
+        <pre><code>
+&lt;script src="//unpkg.com/alpinejs" defer&gt;&lt;/script&gt;
 
-        &lt;div x-data="{ open: false }"&gt;
-            &lt;button @click="open = true"&gt;Expand&lt;/button&gt;
+&lt;div x-data="{ open: false }"&gt;
+    &lt;button @click="open = true"&gt;Expand&lt;/button&gt;
 
-            &lt;span x-show="open"&gt;
-                Stuff goes here...
-            &lt;/span&gt;
-        &lt;/div&gt;
+    &lt;span x-show="open"&gt;
+        Stuff goes here...
+    &lt;/span&gt;
+&lt;/div&gt;
         </code></pre>
 
         <h2>Starting out</h2>
@@ -44,9 +45,10 @@
         <p>As promised, no install is needed, just load the pages into a webserver
         of your choice, e.g. Python simpleserver, then click around.</p>
 
-        <pre><code>git clone git@github.com:icedwater/alpinejs-play
-        cd alpinejs-play
-        python -m http.server 8000 # or python -m SimpleHTTPServer 8000 for Python 2
+        <pre><code>
+git clone git@github.com:icedwater/alpinejs-play
+cd alpinejs-play
+python -m http.server 8000 # or python -m SimpleHTTPServer 8000 for Python 2
         </code></pre>
 
         <p>The basic stuff should now be available on <code>http://localhost:8000</code>.</p>
